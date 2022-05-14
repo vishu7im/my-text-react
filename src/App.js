@@ -13,10 +13,12 @@ function App() {
       setmode("dark");
       document.body.style.backgroundColor = "#646363";
       showalert("Dark mode is activate ", "success");
+      document.title=' textls - dark mode';
     } else {
       setmode("light");
       document.body.style.backgroundColor = "white";
       showalert("light mode is activate ", "success");
+      document.title=' textls - light mode';
     }
   };
   const [mode, setmode] = useState("light");
