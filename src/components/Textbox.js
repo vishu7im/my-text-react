@@ -1,4 +1,4 @@
-
+ my-2
 import React, { useState } from "react";
 
 export default function Textbox(props) {
@@ -83,19 +83,19 @@ props.Alert("Text is copy ","success")
           cols="30"
           rows="10"
         ></textarea>
-        <button className={`"btn btn-${props.Darkmod==="light"?"secondary":"info"} mx-2`} onClick={upperclick} style={{color:props.Darkmod==="light"?"black":"white"}}>
+        <button className={`"btn btn-${props.Darkmod==="light"?"secondary":"info"} mx-2 my-2`} onClick={upperclick} style={{color:props.Darkmod==="light"?"black":"white"}}>
           Upercase
         </button>
-        <button className={`"btn btn-${props.Darkmod==="light"?"secondary":"info"} mx-2`} onClick={lowerclick} style={{color:props.Darkmod==="light"?"black":"white"}}>
+        <button className={`"btn btn-${props.Darkmod==="light"?"secondary":"info"} mx-2 my-2`} onClick={lowerclick} style={{color:props.Darkmod==="light"?"black":"white"}}>
           Lowercase
         </button>
-        <button className={`"btn btn-${props.Darkmod==="light"?"secondary":"info"} mx-2`} onClick={capitalclick} style={{color:props.Darkmod==="light"?"black":"white"}}>
+        <button className={`"btn btn-${props.Darkmod==="light"?"secondary":"info"} mx-2 my-2`} onClick={capitalclick} style={{color:props.Darkmod==="light"?"black":"white"}}>
           Capitalcase
         </button>
-        <button className={`"btn btn-${props.Darkmod==="light"?"secondary":"info"} mx-2`} onClick={cleartext} style={{color:props.Darkmod==="light"?"black":"white"}}>
+        <button className={`"btn btn-${props.Darkmod==="light"?"secondary":"info"} mx-2 my-2`} onClick={cleartext} style={{color:props.Darkmod==="light"?"black":"white"}}>
           Clear
         </button>
-        <button className={`"btn btn-${props.Darkmod==="light"?"secondary":"info"} mx-2`} onClick={inverseText} style={{color:props.Darkmod==="light"?"black":"white"}}>
+        <button className={`"btn btn-${props.Darkmod==="light"?"secondary":"info"} mx-2 my-2`} onClick={inverseText} style={{color:props.Darkmod==="light"?"black":"white"}}>
           invers
         </button>
         <button className={`"btn btn-${props.Darkmod==="light"?"secondary":"info"} mx-2`} onClick={copyText} style={{color:props.Darkmod==="light"?"black":"white"}}>
